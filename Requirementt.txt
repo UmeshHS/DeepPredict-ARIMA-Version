@@ -1,0 +1,27 @@
+# Web / deployment
+Flask
+flask-cors
+gunicorn
+
+# Core data science
+numpy
+pandas
+scikit-learn
+joblib
+tqdm
+
+# Time-series (ARIMA)
+statsmodels
+pmdarima
+
+# Gradient boosting
+xgboost
+
+# Deep learning / transformers
+torch
+transformers
+tokenizers
+sentencepiece
+
+# Utilities / HTTP
+requests
