@@ -30,6 +30,10 @@ except Exception as e:
     traceback.print_exc()
 
 # ----- API endpoints -----
+@app.route('/')
+def home():
+    return "DeepPredict API is running!"
+
 @app.route('/get_location_names')
 def get_location_names():
     try:
@@ -211,3 +215,4 @@ if __name__ == "__main__":
     print("Starting server...")
     # run on all interfaces only if you want to access from other machines; local dev default is fine
     app.run(debug=True)
+

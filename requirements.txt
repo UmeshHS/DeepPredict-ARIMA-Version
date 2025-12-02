@@ -1,6 +1,6 @@
 # Web / deployment
 Flask==2.3.2
-flask-cors==4.1.2
+flask-cors==4.0.0
 gunicorn==20.1.0
 
 # Core data science
@@ -15,12 +15,14 @@ statsmodels==0.14.1
 pmdarima==2.0.4
 
 # Gradient boosting
-xgboost==1.8.3
+xgboost==2.0.3
+
 
 # Deep learning / transformers
 torch==2.3.0
-transformers==4.39.3
-tokenizers==0.14.1
+transformers==4.36.2
+tokenizers==0.15.2
+
 sentencepiece==0.1.99
 
 # Utilities / HTTP
